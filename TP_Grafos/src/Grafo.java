@@ -29,17 +29,7 @@ public class Grafo {
         listaAdyacencia.get(destino).add(aristaInversa);
     }
 
-/*    public List<Arista> obtenerAristas() {
-        List<Arista> aristas = new ArrayList<>();
-        for (List<Arista> lista : listaAdyacencia.values()) {
-            for (Arista arista : lista) {
-                if (!aristas.contains(arista)) {
-                    aristas.add(arista);
-                }
-            }
-        }
-        return aristas;
-    }*/
+
 
     public List<Arista> obtenerAristas() {
         Set<Arista> aristasSet = new HashSet<>();
